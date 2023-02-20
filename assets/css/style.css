@@ -1,31 +1,34 @@
 * {
+  /* Sets the width, padding, margin, and height */
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 body {
+  /* Sets background color for page */
   background-color: #d9dcd6;
 }
 
 .header {
   padding: 20px;
+  /* Sets font and backup fonts */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  /* Sets header background color */
   background-color: #2a607c;
   color: #ffffff;
 }
 
 .header h1 {
+  /* Sets appearance and alignment behaviour of h1 element */
   display: inline-block;
   font-size: 48px;
-}
-
-.header h1 .seo {
   color: #d9dcd6;
 }
 
 .header nav {
+  /* Sets position and font properties of links contained in nav element */
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -38,20 +41,24 @@ body {
 }
 
 .header nav ul li {
+  /* Sets alignment of li elements in nav */
   display: inline-block;
   margin-left: 25px;
 }
 
 a {
+  /* Sets font color for links */
   color: #ffffff;
   text-decoration: none;
 }
 
 p {
+  /* Sets font size for paragraphs */
   font-size: 16px;
 }
 
 .hero {
+  /* Sets dimensions for main photo */
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -61,135 +68,79 @@ p {
 }
 
 .float-left {
+  /* Sets left floating margin */
   float: left;
   margin-right: 25px;
 }
 
 .float-right {
+  /* Sets right floating margin */
   float: right;
   margin-left: 25px;
 }
 
-.content {
+#section {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
 .benefits {
+  /* Sets alignment, width, and height for benefits aside */
   margin-right: 20px;
   padding: 20px;
   clear: both;
   float: right;
-  width: 20%;
+  width: 18%;
   height: 100%;
+  /* Sets background color and font */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-article {
+  /* Sets font color and margin */
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-article h3 {
+  /* Sets alignment for h3 tags under benefit articles */
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img {
+.benefit-article img {
+  /* Sets alignment behaviour and width for img tags under benefit articles */
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.search-engine-optimization {
+.content {
+  /* Sets the bottom margin, padding, and height of content */
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
+  /* Sets font family, background color, and font color */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
 }
 
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.search-engine-optimization img {
+.content img {
+  /* Sets img height under content tag */
   max-height: 200px;
 }
 
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.content h2 {
+  /* Sets bottom margin and font size for h2 elements under content */
   margin-bottom: 20px;
   font-size: 36px;
 }
 
 .footer {
+  /* Sets dimensions and font for footer */
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -198,5 +149,6 @@ p {
 }
 
 .footer h2 {
+  /* Sets font size for footer h2 elements */
   font-size: 20px;
 }
